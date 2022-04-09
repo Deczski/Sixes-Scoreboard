@@ -1,0 +1,141 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.959);
+  font-family: "Mitr", sans-serif;
+  color: white;
+}
+
+.clicked {
+  border: 3px white solid;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+}
+
+.wrapper .score-area {
+  min-width: 65vw;
+  min-height: 70vh;
+  padding: 5px;
+  border: 1px dashed white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.wrapper .score-area input {
+  margin-block: 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-transform: uppercase;
+  text-align: center;
+  height: 30px;
+  font-size: x-large;
+  width: 100%;
+}
+
+.wrapper .score-area .home-team {
+  border: 1px solid white;
+  width: 25%;
+  height: 300px;
+}
+
+.wrapper .score-area .home-team .home-score {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 120px;
+}
+
+.wrapper .score-area .away-team {
+  border: 1px solid white;
+  width: 25%;
+  height: 300px;
+}
+
+.wrapper .score-area .away-team .away-score {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 120px;
+}
+
+.wrapper .score-area .score-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.wrapper .score-area .score-buttons button {
+  font-size: 50px;
+  padding-inline: 36px;
+  cursor: pointer;
+}
+
+.wrapper .score-area .clocks .quarter {
+  font-size: 40px;
+  text-align: center;
+}
+
+.wrapper .score-area .clocks .main-clock {
+  font-size: 120px;
+}
+
+.wrapper .score-area .clocks .menu-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.wrapper .score-area .clocks .menu-buttons div {
+  padding: 20px;
+  border: 1px white solid;
+  font-size: x-large;
+  cursor: pointer;
+}
+
+.wrapper .score-area .clocks .shotclock {
+  font-size: 60px;
+  text-align: center;
+  margin-top: 100px;
+  font-family: "Orbitron", sans-serif;
+  border: red dashed 3px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */
